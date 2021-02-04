@@ -8,7 +8,10 @@ import java.util.List;
  * @date 2021/2/4 - 19:39
  */
 public interface UserDao {
-
+   /**
+    * jjjjjkkkkk
+    * @return
+    */
    public  List<User>  getUserList();
 
    public  User getUserOne();
