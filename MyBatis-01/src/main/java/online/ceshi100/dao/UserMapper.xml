@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="online.ceshi100.dao.UserDao">
+    <select id="getUserList" resultType="online.ceshi100.pojo.User">
+        select * from user3
+    </select>
+</mapper>
